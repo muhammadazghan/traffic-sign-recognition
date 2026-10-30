@@ -52,7 +52,11 @@
       li.append(name, val, track);
       bars.appendChild(li);
     });
-    status.textContent = 'Top 3 predictions:';
+    const LOW = 0.7;
+    top1.classList.toggle('low', top[0].prob < LOW);
+    status.textContent = top[0].prob < LOW
+      ? 'Low confidence: this sign may not be one of the 43 supported German signs. Top 3 guesses:'
+      : 'Top 3 predictions:';
   }
 
   function handle(file) {

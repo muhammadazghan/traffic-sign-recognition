@@ -54,3 +54,6 @@ footer{padding:24px 0 40px;color:var(--muted);font-size:14px;text-align:center}
   .demo-grid,.cols{grid-template-columns:1fr}
   .stats{grid-template-columns:1fr}
 }
+
+.top1.low{border-left-color:#d9a400}
+.top1.low .conf{color:#d9a400}

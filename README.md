@@ -2,8 +2,6 @@
 
 **Deep Learning Semester Project**
 
-**Name:** Muhammad Azghan
-
 A convolutional neural network that classifies German traffic signs into 43 classes.
 It reaches **99.87% test accuracy** and runs fully in the browser on the project website.
 
